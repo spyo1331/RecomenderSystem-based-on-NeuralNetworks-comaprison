@@ -363,7 +363,7 @@ class TrainingConfig:
 
     def __init__(self,initial_lr: float = 0.003, min_lr: float = 0.003, weight_decay: float = 0.01, emb_dim: int = 32, n_heads: int = 2,
                  n_layers: int = 1, dropout: float = 0.1, hidded_dim: int = 64, dim_ff: int = 128, batch_size: int = 256, train_ratio: float = 0.9,
-                 seq_len_for_training: int = 50, top_k_for_training: int = 10, top_k_for_reccomending: int = 10, training_epochs: int = 2,
+                 seq_len_for_training: int = 50, top_k_for_training: int = 10, top_k_for_reccomending: int = 10, training_epochs: int = 20,
                  eval_freq: int = 1000, plot_results: bool = True):
 
         self.initial_lr = initial_lr
